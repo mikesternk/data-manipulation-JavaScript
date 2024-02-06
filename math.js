@@ -47,3 +47,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 // Check if all the numbers are divisible by 5. Cache the results in a variable.
 const isDivisibleby5 = (n1 % 5 && n2 % 5 && n3 % 5 && n4 % 5 && n5 % 5) == 0;
 console.log(isDivisibleby5)
+
+// Check if the first number is larger than the last. Cache the result in a variable.
+const isFirstGreaterThanLast = n1 > n4;
+console.log(isFirstGreaterThanLast)
