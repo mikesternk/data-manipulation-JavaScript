@@ -56,3 +56,7 @@ console.log(isFirstGreaterThanLast)
 // Subtract the first number from the second number
 const secondMinusFirst = (n2 - n1);
 console.log(secondMinusFirst)
+
+// Multiply the result by the third number
+const mulitplyResult = (secondMinusFirst * n3);
+console.log(mulitplyResult)
