@@ -60,3 +60,7 @@ console.log(secondMinusFirst)
 // Multiply the result by the third number
 const mulitplyResult = (secondMinusFirst * n3);
 console.log(mulitplyResult)
+
+// Find the remainder of dividing the result by the fourth number.
+const remainder = (mulitplyResult % n4);
+console.log(remainder)
