@@ -46,27 +46,27 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
 // Check if all the numbers are divisible by 5. Cache the results in a variable.
 const isDivisibleby5 = (n1 % 5 && n2 % 5 && n3 % 5 && n4 % 5 && n5 % 5) == 0;
-console.log(isDivisibleby5)
+console.log("Are all the numbers divisible by 5? (true/false): " + isDivisibleby5)
 
 // Check if the first number is larger than the last. Cache the result in a variable.
 const isFirstGreaterThanLast = n1 > n4;
-console.log(isFirstGreaterThanLast)
+console.log(`Is n1 (${n1}) greater than n4 (${n4})?: ${isFirstGreaterThanLast}`)
 
 // Acomplish the following arithmetic chain:
 // Subtract the first number from the second number
 const secondMinusFirst = (n2 - n1);
-console.log(secondMinusFirst)
+console.log("What is n2 (" + n2 + ") - n1 (" + n1 + "): " + secondMinusFirst)
 
 // Multiply the result by the third number
 const mulitplyResult = (secondMinusFirst * n3);
-console.log(mulitplyResult)
+console.log(`Multiplying n3 (${n3}) by the result of the previous question (${secondMinusFirst}) we get ${mulitplyResult}`)
 
 // Find the remainder of dividing the result by the fourth number.
 const remainder = (n4 % mulitplyResult);
-console.log(remainder)
+console.log("What is the remainder for the following equation?\n" + n4 + " / " + mulitplyResult + " = " + remainder)
 
 // Change the way that isOver25 calculates so that we do not use the 
 // NOT operator (!) in other logical comparisons. Rename the 
 //  variable as appropriate
 const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
-console.log(isUnder25)
+console.log(`Is everyone here under the age of 25?: ${isUnder25}`)
