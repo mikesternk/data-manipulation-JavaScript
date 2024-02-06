@@ -64,3 +64,9 @@ console.log(mulitplyResult)
 // Find the remainder of dividing the result by the fourth number.
 const remainder = (n4 % mulitplyResult);
 console.log(remainder)
+
+// Change the way that isOver25 calculates so that we do not use the 
+// NOT operator (!) in other logical comparisons. Rename the 
+//  variable as appropriate
+const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
+console.log(isUnder25)
