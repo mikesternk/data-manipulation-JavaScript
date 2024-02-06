@@ -62,5 +62,5 @@ const mulitplyResult = (secondMinusFirst * n3);
 console.log(mulitplyResult)
 
 // Find the remainder of dividing the result by the fourth number.
-const remainder = (mulitplyResult % n4);
+const remainder = (n4 % mulitplyResult);
 console.log(remainder)
