@@ -51,3 +51,8 @@ console.log(isDivisibleby5)
 // Check if the first number is larger than the last. Cache the result in a variable.
 const isFirstGreaterThanLast = n1 > n4;
 console.log(isFirstGreaterThanLast)
+
+// Acomplish the following arithmetic chain:
+// Subtract the first number from the second number
+const secondMinusFirst = (n2 - n1);
+console.log(secondMinusFirst)
